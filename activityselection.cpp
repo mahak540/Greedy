@@ -8,7 +8,7 @@ int activitySelection(vector<int> &start, vector<int> &finish) {
         {
             return a[1]<b[1];
         });
-        int cnt=1;j=0;
+        int cnt=1,j=0;
         for(int i=1;i<arr.size();i++)
         {
             if(arr[i][0]>arr[j][1])
